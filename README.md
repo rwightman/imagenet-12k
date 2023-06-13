@@ -19,4 +19,6 @@ Included:
 
 The validation set is the same for both and only covers the 12k subset. The 12k (11821) synsets were chosen based on being able to have 40 samples per synset for validation w/ at least 400 samples remaining for train. See `meta/frequency.json` for per-synset sample counts. 
 
-Metadata .csv files are in a release asset due to their size, see: https://github.com/rwightman/imagenet-12k/releases/download/v1.0.0/meta.tar.gz
+Metadata .csv files are in a release asset and on HF datasets due to their size, see: 
+* https://github.com/rwightman/imagenet-12k/releases/download/v1.0.0/meta.tar.gz
+* https://huggingface.co/datasets/rwightman/imagenet-12k-metadata
